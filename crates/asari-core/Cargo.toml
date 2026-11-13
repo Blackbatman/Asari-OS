@@ -1,0 +1,7 @@
+[package]
+name = "asari-core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+asari-platform = { path = "../asari-platform" }

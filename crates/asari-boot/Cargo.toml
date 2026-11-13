@@ -1,0 +1,11 @@
+[package]
+name = "asari-boot"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "asari-boot"
+path = "src/main.rs"
+
+[dependencies]
+asari-platform = { path = "../asari-platform" }
