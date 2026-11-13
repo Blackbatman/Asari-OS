@@ -1,0 +1,47 @@
+{
+  "version": "0.1.0",
+  "features": [
+    {
+      "id": "F01",
+      "name": "Platform trait abstraction",
+      "status": "in-progress",
+      "platforms": ["qemu", "linux-native"],
+      "acceptance": ["Trait compiles", "QEMU backend returns honest capabilities"]
+    },
+    {
+      "id": "F02",
+      "name": "QEMU smoke boot",
+      "status": "planned",
+      "platforms": ["qemu"],
+      "acceptance": ["Boots to a minimal shell or graphical marker"]
+    },
+    {
+      "id": "F03",
+      "name": "Visual identity assets",
+      "status": "done",
+      "platforms": ["all"],
+      "acceptance": ["Login, Desktop, Explorer, Settings, Terminal, Alert present"]
+    },
+    {
+      "id": "F04",
+      "name": "Custom Asari boot sequence",
+      "status": "concept-complete",
+      "platforms": ["all"],
+      "acceptance": ["Keyframe + sequence description exist"]
+    },
+    {
+      "id": "F05",
+      "name": "Agent harness",
+      "status": "in-progress",
+      "platforms": ["all"],
+      "acceptance": ["CLAUDE.md and feature_list.json drive development"]
+    },
+    {
+      "id": "F06",
+      "name": "CI matrix",
+      "status": "done",
+      "platforms": ["qemu", "linux-native"],
+      "acceptance": ["GitHub Actions runs check + test on push"]
+    }
+  ]
+}
