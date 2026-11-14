@@ -16,6 +16,23 @@ Deep blue holographic panels, biotic energy accents, chrome frames, subtle scanl
 - **Agent-directed development** — Human sets architecture, constraints, and acceptance criteria. Agents implement, test, and iterate inside those bounds.
 - **Elegant systems joining** — Inspired by Asari melding: clean composition of services rather than monolithic complexity.
 
+## Default Application Suite
+Asari-OS ships a curated, theme-aligned application suite so the desktop never feels barren:
+
+| Category          | Primary Choice          |
+|-------------------|-------------------------|
+| Web Browser       | **Zen Browser**         |
+| Digital Painting  | **Krita**               |
+| Terminal          | Kitty                   |
+| Code Editor       | VSCodium + Neovim       |
+| Video / Music     | Celluloid / Amberol     |
+| Office / PDF      | LibreOffice / Papers    |
+| System Monitor    | Mission Center          |
+| Notes / Passwords | Logseq / KeePassXC      |
+
+Full rationale, alternatives, Flatpak IDs, and theming notes live in [`docs/default-applications.md`](docs/default-applications.md).  
+Machine-readable manifests: [`config/default-apps.toml`](config/default-apps.toml) and [`manifests/flatpak-apps.txt`](manifests/flatpak-apps.txt).
+
 ## Architecture Principles
 
 ### Multi-Platform Contract
@@ -44,7 +61,7 @@ Inspired by Asari nervous-system joining:
 - Boot sequence: organic biotic energy and crest-inspired geometry rather than hard digital glitch.
 
 ## Current Status
-Very early research stage. Skeleton + visual identity established. Boot animation concept complete. Core platform abstraction and agent harness in progress.
+Very early research stage. Skeleton + visual identity established. Boot animation concept complete. Core platform abstraction and agent harness in progress. Default application suite fully defined and documented.
 
 ## Getting Started
 ```bash

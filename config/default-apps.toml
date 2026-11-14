@@ -1,0 +1,58 @@
+# Asari-OS Default Applications Manifest
+# Used by image builders, first-boot, and the Software Center
+
+[core]
+# These are expected to be present on a standard desktop image
+
+browser = "zen-browser"
+paint = "krita"
+terminal = "kitty"
+file_manager = "asari-explorer"          # custom; fallback = dolphin
+code_editor = "vscodium"
+terminal_editor = "neovim"
+
+[media]
+video_player = "celluloid"
+music_player = "amberol"
+image_viewer = "loupe"
+screenshot = "flameshot"
+screen_recorder = "obs-studio"
+
+[productivity]
+office = "libreoffice"
+pdf_viewer = "papers"
+notes = "logseq"
+password_manager = "keepassxc"
+calculator = "qalculate"
+
+[system]
+system_monitor = "mission-center"
+archive_manager = "file-roller"
+software_center = "discover"            # or future asari-software-center
+flatpak_permissions = "flatseal"
+system_info = "fastfetch"
+prompt = "starship"
+
+[audio]
+stack = "pipewire"
+effects = "easyeffects"
+
+[optional.gaming]
+enabled_by_default = false
+apps = [
+  "steam",
+  "lutris",
+  "heroic-games-launcher",
+  "mangohud",
+  "gamemode",
+  "bottles",
+  "gamescope"
+]
+
+[theme]
+name = "Spectre"
+palette = ["deep-holographic-blue", "biotic-violet", "cyan-energy", "neon-accent"]
+gtk_theme = "asari-spectre"
+qt_theme = "asari-spectre"
+icon_theme = "asari-icons"
+cursor_theme = "asari-cursor"

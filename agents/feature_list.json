@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "features": [
     {
       "id": "F01",
@@ -51,8 +51,10 @@
       "acceptance": [
         "Zen Browser selected as default browser",
         "Krita selected as default paint application",
-        "Full out-of-the-box suite documented",
-        "Theme compatibility considered for major apps"
+        "Full out-of-the-box suite documented (browser, paint, terminal, media, productivity, system)",
+        "Theme compatibility considered for major apps",
+        "config/default-apps.toml and manifests/flatpak-apps.txt present",
+        "Comparable in polish to CachyOS / Nobara / Bazzite / macOS defaults"
       ]
     }
   ]
