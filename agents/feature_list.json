@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "features": [
     {
       "id": "F01",
@@ -42,6 +42,18 @@
       "status": "done",
       "platforms": ["qemu", "linux-native"],
       "acceptance": ["GitHub Actions runs check + test on push"]
+    },
+    {
+      "id": "F07",
+      "name": "Default application suite",
+      "status": "defined",
+      "platforms": ["all"],
+      "acceptance": [
+        "Zen Browser selected as default browser",
+        "Krita selected as default paint application",
+        "Full out-of-the-box suite documented",
+        "Theme compatibility considered for major apps"
+      ]
     }
   ]
 }
